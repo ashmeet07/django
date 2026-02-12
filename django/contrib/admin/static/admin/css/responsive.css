@@ -196,6 +196,17 @@ input[type="submit"], button {
         font-size: 1rem;
     }
 
+
+    .pass-attr strong {
+        display: inline-block;
+        margin-top: 4px;
+    }
+    
+    .pass-attr bdi {
+        display: block;
+        word-break: break-all;
+    }
+
     .form-row select {
         height: 2.25rem;
     }
